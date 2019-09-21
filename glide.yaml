@@ -1,0 +1,15 @@
+package: .
+import:
+- package: github.com/mitchellh/go-homedir
+  version: ~1.1.0
+- package: github.com/paulczar/gosible
+  version: ~0.1.0
+  subpackages:
+  - ansible
+  - cmd
+  - provisioner
+- package: github.com/paulczar/vagrantutil
+- package: github.com/spf13/cobra
+  version: ~0.0.5
+- package: github.com/spf13/viper
+  version: ~1.4.0
